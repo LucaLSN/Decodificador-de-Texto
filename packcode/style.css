@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#corpo{
+
+   position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0, #120c56, #000000);
+
+    
+}
+
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f5f5f0;
+    margin-top: ;   
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.imagemfundo{
+    padding: 20px;
+
+}
+
+.container-cript{
+    display: table-cell;
+    
+}
+.container-descript{
+    display: table-cell;
+    
+}
+
+
+#entrada{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: table;
+    margin: auto;
+    resize: none;
+    margin-left: 30px;
+    
+    
+   
+    
+}
+#saida{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: block;
+    resize: none;
+    margin-left: 30px;
+}
+#botaof {
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    background: #347cd9;
+    padding: 10px 80px ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 33px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #botaof:hover {
+    background-color: rgb(0, 255, 221);
+    color: rgb(255, 255, 255);
+    
+}
+
+#botaos {
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    background: #347cd9;
+    padding: 10px 70px ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 33px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+  }
+  #botaos:hover{
+    background-color: rgb(0, 255, 221);
+    color: rgb(255, 255, 255);
+    
+  }
+
+  #botaocopy {
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    background: #34aad9;
+    padding: 10px 70px ;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    margin-left: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  #botaocopy:hover{
+    background-color: rgb(58, 211, 97);
+}
+
+  #copiararea{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    background-color:  #f5f5f0;
+    box-sizing: border-box;
+    display: table;
+    margin: auto;
+    resize: none;
+    margin-left: 30px; 
+    
+}
+
+.rodape{
+    background-color: #347cd9;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 3px 3px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 480px;
+    left: 47%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 44% ;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+
+
+.git{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 49%;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    top: 95%;
+    left: 54%;
+    border: 2px solid white;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.reproducao{
+    color:white;
+    border-radius: 5px;
+    padding: 3px 3px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 500px;
+    left: 50px;
+    
+}
