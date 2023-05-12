@@ -19,7 +19,6 @@ function criptografa(){
     .replaceAll("e", "enter")
     .replaceAll("i", "imes")
     .replaceAll("a", "ai")
-    .replaceAll("á", "lo")
     .replaceAll("o", "ober")
     .replaceAll("u", "ufat");
 
@@ -34,7 +33,6 @@ let result = textoDescriptografado
     .replaceAll("enter", "e")
     .replaceAll("imes", "i")
     .replaceAll("ai", "a")
-    .replaceAll("á", "lo")
     .replaceAll("ober", "o")
     .replaceAll("ufat", "u");
 
